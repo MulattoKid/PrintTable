@@ -1,0 +1,4 @@
+printTable
+*.o
+*.obj
+*.exe
