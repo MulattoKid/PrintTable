@@ -62,6 +62,9 @@ struct PrintTable
     void Reset();
 };
 
+#endif // PRINT_TABLE_H
+
+#ifdef PRINT_TABLE_IMPLEMENTATION
 void PrintTable::SetTitle(const std::string& title)
 {
     this->title = title;
@@ -240,4 +243,4 @@ void PrintTable::Reset()
     alteredState = true;
 }
 
-#endif
+#endif // PRINT_TABLE_IMPLEMENTATION

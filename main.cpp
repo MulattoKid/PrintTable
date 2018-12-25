@@ -1,3 +1,4 @@
+#define PRINT_TABLE_IMPLEMENTATION
 #include "PrintTable.h"
 
 int main(int argc, char**argv)
